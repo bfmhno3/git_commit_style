@@ -115,3 +115,56 @@ chore: init
 > [!note]
 >
 > 与重大变更有关的信息应在 `BREAKING CHANGES:` 后以一个空格 ` ` 或两行空行开始。
+
+## 例子
+
++ ```shell
+  feat: add email notifications on new direct messages
+  ```
+
++ ```shell
+  feat(shopping cart): add the amazing button
+  ```
+
++ ```shell
+  feat!: remove ticket list endpoint
+  
+  refers to JIRA-1337
+  
+  BREAKING CHANGES: ticket endpoints on longer supports list all entities.
+  ```
+
++ ```shell
+  fix(shopping-cart): prevent order an empty shopping cart
+  ```
+
++ ```shell
+  fix(api): fix wrong calculation of request body checksum
+  ```
+
++ ```shell
+  fix: add missing parameter to service call
+  
+  The error occurred because of <reasons>.
+  ```
+
++ ```shell
+  perf: decrease memory footprint for determine unique visitors by using HyperLogLog
+  ```
+
++ ```shell
+  build: update dependencies
+  ```
+
++ ```
+  build(release): bump version to 1.0.0
+  ```
+
++ ```
+  refactor: implement fibonacci number calculationn as recursion
+  ```
+
++ ```
+  style: remove empty line
+  ```
+
