@@ -168,6 +168,16 @@ chore: init
   style: remove empty line
   ```
 
+## 其他情况
+
+在实际工作和学习过程中，并非每个项目都是软件开发，比如有些项目以文档为中心。对于此类项目，作出以下特别声明：
+
++ `feat` 只能用于与代码有关的功能提交。
++ `refactor` 可扩展为对文档的重写或重构，但是并没有改变文档的核心内容和信息，比如目录重组、章节重排、优化表述方式等。
++ 所有内容的实质性变更（即表达的意思发生了改变，比如新增、删除等）全部使用 `docs`
++ 对于文档内容中错误的修改，统一使用 `docs`。
++ 其余类型含义保持不变。
+
 ## 参考资料
 
 + [conventional-commits-cheatsheet.md](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
